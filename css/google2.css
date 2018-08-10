@@ -170,13 +170,22 @@ main .time-to-display {
     }
     .right {
         width: 100%;
-        justify-content: space-around;
+        justify-content: flex-start;
+        padding-left: 30px;
     }
+    .right .settings {
+      position: absolute;
+      right: 30px;
+    }
+    .right .notification {
+        margin-left: 30px;
+    }
+    
     .left {
         flex-flow: column-reverse wrap; 
     }
     .search-holder {
-        width:70%;
+        width:90%;
     }
     .space {
         padding-left: 0;
